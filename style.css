@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .banner-text {
     max-width: 500px;
     padding-left: 700px;
@@ -29,4 +32,92 @@
     border-radius: 5px;
     color:  #005FAC;
     border: none;
+}
+.failure{
+    max-width: 75%;
+    margin: 100px auto;
+}
+.failure-content{
+    display: flex;
+}
+.failure-text{
+    padding: 150px 40px;
+}
+.failure-text h1{
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.failure-text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.failure-text ul{
+    margin-right: 50px;
+}
+.failure-text ul li{
+    list-style: none;
+    margin-left: -40px;    
+}
+
+.my-plan-contain{
+    display: flex;
+    justify-content: space-around;
+}
+.my-plan{
+    text-align: center;
+    max-width: 75%;
+    margin: 20px auto;
+}
+.my-plan-title{
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.watch{
+    max-width: 75%;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(images/watch.png);
+    margin: 100px auto;
+    height: 250px;
+    border-radius: 8px;
+    background-blend-mode: normal;
+}
+.watch-content{
+    padding: 50px;
+    font-size: 25px;
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #151414;
+    color: white;
+}
+.footer-text{
+    display: flex;
+}
+.footer-item{
+    max-width: 400px;
+    padding: 50px 80px;
+}
+.footer-item p{
+    margin-top: 30px;
+}
+.footer-item img{
+    margin-top: 30px;
+}
+.footer-item input{
+    padding: 15px 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #151414;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+.footer-item button{
+    display: block;
+    padding: 13px 20px;
+    background-color: #005FAC;
+    border-radius: 8px;
+    color: white;
 }
